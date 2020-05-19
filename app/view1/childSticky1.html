@@ -1,0 +1,29 @@
+<div ng-controller="MainCtrl as ctrl"
+      style='border: 2px solid #00FF00;'>
+    child Sticky1
+    <b>1</b>
+    <br>
+    Following child Sticky1 text should persist:
+    <br>
+    <textarea></textarea>
+    <br/>
+    <button ng-click="ctrl.goToParent()">Go Back to parent</button>
+    <div ui-view='lastchildSticky1'></div>
+</div>
+
+
+
+
+
+<!--<div ng-controller="MainCtrl as ctrl" ng-show="$state.current.name.includes('childSticky1')"-->
+     <!--style='border: 2px solid #00FF00;'>-->
+    <!--child Sticky1-->
+    <!--<b>1</b>-->
+    <!--<br>-->
+    <!--Following child Sticky1 text should persist:-->
+    <!--<br>-->
+    <!--<textarea></textarea>-->
+    <!--<br/>-->
+    <!--<button ng-click="ctrl.goToParent()">Go Back to parent</button>-->
+    <!--<div ui-view='lastchildSticky1'></div>-->
+<!--</div>-->

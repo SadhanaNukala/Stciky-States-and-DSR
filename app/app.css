@@ -1,0 +1,68 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+/*[ui-view="view1"] {*/
+  /*!*margin-top: 10px;*!*/
+  /*!*border: 2px solid #F0F;*!*/
+  /*min-width: 100px;*/
+  /*min-height: 100px;*/
+/*}*/
+
+/*[ui-view="view2"] {*/
+  /*!*margin-top: 10px;*!*/
+  /*border: 2px solid #F0F;*/
+  /*min-width: 100px;*/
+  /*min-height: 100px;*/
+/*}*/
+
+[ui-view="childSticky1"] {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*border: 2px solid #00FF00;*/
+  min-width: 100px;
+  min-height: 100px;
+}
+
+[ui-view="childSticky2"] , [ui-view="child1Sticky2"] {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  /*border: 2px solid #00FF00;*/
+  min-width: 100px;
+  min-height: 100px;
+}
+
+[ui-view="lastchildSticky1"], [ui-view="lastchild1Sticky2"] {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  /*border: 2px solid #FF6347;*/
+  min-width: 100px;
+  min-height: 100px;
+}

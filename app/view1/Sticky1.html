@@ -1,0 +1,33 @@
+<div ng-controller="MainCtrl as ctrl"
+     style="margin-top: 10px; border: 2px solid #F0F;min-width: 100px; min-height: 100px; " >
+    Sticky <b>1</b>
+    <br>
+    Following text should persist:<br><textarea></textarea>
+
+</div>
+
+<div ui-view = 'childSticky1'>
+</div>
+<div ui-view = 'childSticky2'></div>
+
+
+
+
+
+
+<!--<div ng-controller="MainCtrl as ctrl" ng-show="$state.includes('parent.sticky1')" ng-hide="$state.current.name.includes('childSticky1')"-->
+     <!--style="margin-top: 10px; border: 2px solid #F0F;min-width: 100px; min-height: 100px; " >-->
+    <!--Sticky <b>1</b>-->
+    <!--<br>-->
+    <!--Following text should persist:<br><textarea></textarea>-->
+
+<!--</div>-->
+
+<!--<div ui-view = 'childSticky1'>-->
+<!--</div>-->
+<!--<div ui-view = 'childSticky2'></div>-->
+
+
+
+
+
