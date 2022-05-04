@@ -10,7 +10,7 @@
     "@uirouter/dsr": "^1.2.0",
     "@uirouter/sticky-states": "^1.5.1",
     "@uirouter/visualizer": "^7.0.0",
-    "angular": "^1.7.5",
+    "angular": "^1.8.3",
     "angular-loader": "^1.7.5",
     "angular-route": "^1.7.5",
     "angular-ui-router": "^1.0.20",
